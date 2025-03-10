@@ -5,11 +5,13 @@ import './index.css'
 const Header = () => (
   <nav className="header-container">
     <div className="logo-and-title-container">
-      <img
-        alt="wave"
-        className="logo"
-        src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png"
-      />
+      <Link to="/" className="route-link">
+        <img
+          alt="wave"
+          className="logo"
+          src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png"
+        />
+      </Link>
       <h1 className="title">Wave</h1>
     </div>
     <ul className="nav-items-list">
